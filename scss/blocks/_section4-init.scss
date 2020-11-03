@@ -1,0 +1,43 @@
+.init {
+    background: url("/img/section4-bg.png") no-repeat center/cover;
+    padding: 70px 0;
+  
+    @media screen and (max-width: 768px) {
+      padding: 50px 0;
+    }
+  
+    @media screen and (max-width: 576px) {
+      padding: 30px 0;
+    }
+
+    &__body {
+        text-align: center;
+        font-size: 30px;
+        font-family: "Roboto Slab", serif;
+        line-height: 42px;
+
+        @media screen and (max-width: 576px) {
+            font-size: 25px;
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 45px;
+    }
+
+    &__buton {
+        color: #fff;
+        text-transform: uppercase;
+        border: 3px solid #fff;
+        border-radius: 3px;
+        font-size: 18px;
+        padding: 10px 24px;
+        transition: 0.25s ease-in-out;
+
+        &:hover, 
+        &:focus {
+            background: #fff;
+            color: #c0301c;
+        }
+    }
+}

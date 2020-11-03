@@ -1,0 +1,127 @@
+.works {
+  background: #fff;
+  padding: 70px 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 30px 0;
+  }
+
+  &__title {
+    margin: 0 auto;
+  }
+
+  &__btns {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+
+    @media screen and (max-width: 768px) {
+      margin-bottom: 50px;
+      justify-content: space-around;
+    }
+
+    @media screen and (max-width: 576px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__btn {
+    font-size: 16px;
+    color: #555;
+    font-family: "Roboto Slab", serif;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      color: #c0301c;
+    }
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: center;
+  }
+
+  &__card {
+    width: calc(100% / 12 * 4 - 30px);
+    margin: 0 15px 30px;
+    position: relative;
+    display: none;
+    animation: appear 1s forwards;
+    @keyframes appear {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    img {
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: calc(100% / 12 * 6 - 30px);
+    }
+
+    @media screen and (max-width: 576px) {
+      width: calc(100% - 30px);
+      justify-content: center;
+    }
+
+    &.active {
+      display: block;
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background: #cf6a5fc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__titile {
+    font-size: 18px;
+  }
+
+  &__text {
+    font-size: 12px;
+    margin: 17px 0 30px;
+  }
+
+  &__link {
+    font-size: 14px;
+    padding: 11px 26px;
+    color: #c0301c;
+    background: #fff;
+    text-transform: uppercase;
+  }
+}
+.fa-angle-right {
+  margin-left: 10px;
+}

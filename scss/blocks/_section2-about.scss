@@ -1,9 +1,13 @@
 .about {
   background: #f8f8f8;
-  padding: 100px 0;
+  padding: 70px 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
 
   @media screen and (max-width: 576px) {
-    padding: 50px 0;
+    padding: 30px 0;
   }
 
   &__paragraphs {
@@ -34,7 +38,17 @@
     line-height: 22px;
     font-family: "Roboto Slab", serif;
   }
+
+  &__employees {
+    margin-top: 100px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 50px;
+    }
+  }
 }
+
+// -------------SLIDER---------------
 
 .slider {
   min-width: 0;
@@ -49,9 +63,14 @@
     min-width: 0;
     width: calc(100% / 12 * 3 - 30px);
     margin: 0 15px;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   &__img {
+    position: relative;
     img {
       width: 100%;
     }
@@ -60,6 +79,7 @@
   &__title {
     font-size: 14px;
     color: #555;
+    margin: 20px 0 15px;
   }
 
   &__subtitle {
@@ -79,12 +99,13 @@
 }
 .slick-arrow {
   position: absolute;
-  top: 45%;
+  top: 35%;
   z-index: 10;
   font-size: 0;
+  cursor: pointer;
 }
 .slick-arrow.slick-prev {
-  left: 0;
+  left: 15px;
   width: 35px;
   height: 35px;
   border: none;
@@ -98,7 +119,7 @@
   }
 }
 .slick-arrow.slick-next {
-  right: 0;
+  right: 14px;
   width: 35px;
   height: 35px;
   border: none;
@@ -110,4 +131,52 @@
     background: url("/img/arrow-right.png") no-repeat center, #c0301c;
     outline: none;
   }
+
+  @media screen and (max-width: 576px) {
+    right: 15px;
+  }
 }
+.slider__overlay {
+  position: absolute;
+  top: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  background: #8b8b8b69;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  opacity: 0;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.slider__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.slider__link {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 1px;
+  font-size: 14px;
+  transition: 0.5s;
+
+  &:hover {
+    background: #c0301c;
+  }
+}
+
+// -------------SLIDER END---------------

@@ -15,6 +15,7 @@ jQuery(document).ready(function () {
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
+        speed: 300,
         responsive: [
             {
               breakpoint: 992,
@@ -38,5 +39,39 @@ jQuery(document).ready(function () {
               }
             }
           ]
+    });
+
+    let btns = $(".works__btn");
+
+    btns.on("click", function () {
+      $(this)
+          .addClass("active")
+          .siblings()
+          .removeClass("active");
+      let cards = $(".works__card");
+      cards.removeClass("active");
+      let btnText = $(this)
+          .text()
+          .toLowerCase();
+      let final = cards.filter(function () {
+          if (btnText === "all") {
+              return cards;
+          } else {
+              return $(this).data("category") === btnText;
+          }
+      });
+      final.each(function () {
+          $(this).addClass("active");
+      });
+    });
+
+    $('.partners__slider').slick({
+      infinite: true,
+      dots: true,
+      arrows: false,
+      initialSlide: 1,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      speed: 300
     });
 });
