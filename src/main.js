@@ -5,6 +5,13 @@ jQuery(document).ready(function () {
     let burgerMenu = $(".menu");
     let bodyBlock = $("body");
 
+    $("#menu").on("click","a", function (event) {
+      event.preventDefault();
+      var id  = $(this).attr('href'),
+          top = $(id).offset().top;
+      $('body,html').animate({scrollTop: top}, 1500);
+    });
+
     burger.on("click", function() {
         burgerMenu.toggleClass("active");
         burgerButton.toggleClass("active");
