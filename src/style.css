@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Roboto+Slab:wght@300;400;600;700&display=swap");
 *,
 *::before,
 *::after {
@@ -71,7 +71,7 @@ img {
 .container {
   max-width: 1200px;
   min-width: 320px;
-  padding: 30px;
+  padding: 30px 15px;
   width: 100%;
   margin: 0 auto;
 }
@@ -808,6 +808,7 @@ img {
 }
 .works__card img {
   margin: 0 auto;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .works__card {
@@ -1137,6 +1138,11 @@ img {
   max-width: 760px;
   width: 100%;
 }
+@media screen and (max-width: 576px) {
+  .partners__slider {
+    margin: 40px auto 0;
+  }
+}
 .partners__item {
   text-align: center;
   max-width: 765px;
@@ -1144,6 +1150,10 @@ img {
 }
 .partners__text {
   color: #555;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .partners__text_top {
   font-size: 18px;
@@ -1190,4 +1200,337 @@ img {
 .partners__slider .slick-dots li button:hover, .partners__slider .slick-dots li button:focus {
   background: #c0301c;
   outline: none;
+}
+
+.contact {
+  background: #fff;
+  padding: 70px 0;
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact {
+    padding: 30px 0;
+  }
+}
+.contact__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+@media screen and (max-width: 830px) {
+  .contact__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.contact__data {
+  width: calc(100% / 12 * 4 - 30px);
+  margin: 0 15px;
+}
+@media screen and (max-width: 830px) {
+  .contact__data {
+    width: calc(100% - 30px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .contact__data {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 15px 15px;
+  }
+}
+@media screen and (max-width: 432px) {
+  .contact__data {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+}
+.contact__form {
+  width: calc(100% / 12 * 8 - 30px);
+  margin: 0 15px;
+}
+@media screen and (max-width: 830px) {
+  .contact__form {
+    width: calc(100% - 30px);
+  }
+}
+
+.data__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #555;
+  font-family: "Roboto Slab", serif;
+}
+.data__icon:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+@media screen and (max-width: 830px) {
+  .data__icon:not(:last-child) {
+    margin: 0 20px 15px 0;
+  }
+}
+.data__icon i {
+  padding-top: 3px;
+}
+@media screen and (max-width: 830px) {
+  .data__icon i {
+    padding-top: 1px;
+  }
+}
+.data__item {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.data__item_mail {
+  margin-left: 11px;
+}
+.data__title {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.data__subtitle {
+  color: #555;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+.form__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media screen and (max-width: 576px) {
+  .form__inputs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.form__input {
+  width: 100%;
+  border: 1px solid #555;
+  max-height: 42px;
+  height: 100%;
+  padding: 11.5px;
+  margin-bottom: 20px;
+  color: #555;
+}
+.form__input::-webkit-input-placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+.form__input:-ms-input-placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+.form__input::-ms-input-placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+.form__input::placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+@media screen and (max-width: 768px) {
+  .form__input::-webkit-input-placeholder {
+    margin-bottom: 15px;
+  }
+  .form__input:-ms-input-placeholder {
+    margin-bottom: 15px;
+  }
+  .form__input::-ms-input-placeholder {
+    margin-bottom: 15px;
+  }
+  .form__input::placeholder {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form__input::-webkit-input-placeholder {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .form__input:-ms-input-placeholder {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .form__input::-ms-input-placeholder {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .form__input::placeholder {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+}
+.form__input:first-child {
+  margin-right: 30px;
+}
+@media screen and (max-width: 768px) {
+  .form__input:first-child {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form__input:first-child {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form__input {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form__input {
+    margin-bottom: 10px;
+  }
+}
+.form__textarea {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #555;
+  margin-bottom: 20px;
+  padding: 11.5px;
+  color: #555;
+}
+.form__textarea::-webkit-input-placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+.form__textarea:-ms-input-placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+.form__textarea::-ms-input-placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+.form__textarea::placeholder {
+  color: #555;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+@media screen and (max-width: 576px) {
+  .form__textarea::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  .form__textarea:-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .form__textarea::-ms-input-placeholder {
+    font-size: 10px;
+  }
+  .form__textarea::placeholder {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .form__textarea {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form__textarea {
+    margin-bottom: 10px;
+  }
+}
+.form__button {
+  max-width: 170px;
+  width: 100%;
+  border: 1px solid #555;
+  padding: 11.5px;
+  color: #555;
+  background: #fff;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.form__button:hover, .form__button:focus {
+  border: 1px solid #c0301c;
+  color: #c0301c;
+}
+@media screen and (max-width: 576px) {
+  .form__button {
+    font-size: 10px;
+    margin: 0 0 15px 0;
+  }
+}
+.form__button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .form__button-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.form__warning {
+  color: #555;
+  font-family: "Roboto Slab", serif;
+  font-size: 12px;
+}
+.form__star {
+  color: #c0301c;
+  margin-right: 5px;
+}
+
+textarea.form__textarea:focus {
+  border-radius: none;
+}
+
+input.form__input:focus {
+  border: 1px solid #c0301c;
+  border-radius: none;
 }

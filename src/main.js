@@ -72,6 +72,7 @@ jQuery(document).ready(function () {
       initialSlide: 1,
       slidesToShow: 1,
       slidesToScroll: 1,
+      accessibility: false,
       speed: 300
     });
 });
