@@ -959,7 +959,7 @@ img {
 }
 
 .init {
-  background: url("/img/section4-bg.png") no-repeat center/cover;
+  background: url("./img/section4-bg.png") no-repeat center/cover;
   padding: 70px 0;
 }
 @media screen and (max-width: 768px) {
