@@ -225,9 +225,10 @@
   }
 }
 textarea.form__textarea:focus {
-  border-radius: none;
+  border: 1px solid #c0301c;
+  outline: none;
 }
 input.form__input:focus {
   border: 1px solid #c0301c;
-  border-radius: none;
+  outline: none;
 }

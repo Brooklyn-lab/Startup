@@ -1,0 +1,59 @@
+.footer {
+  background: #c0301c;
+  padding: 70px 0;
+
+  @media screen and (max-width: 768px) {
+    padding: 50px 0;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding: 30px 0;
+  }
+
+  &__title {
+      margin-bottom: 0;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: center;
+
+    &::before {
+      background: #fff;
+    }
+  }
+
+  &__text {
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+.title {
+
+  &__item {
+    transition: 0.5s ease-in-out;
+
+    &:not(:last-child) {
+      margin-right: 13px;
+    }
+
+    &:hover {
+        transform: rotate(360deg);
+    }
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
