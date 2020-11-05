@@ -974,19 +974,27 @@ img {
 }
 .init__body {
   text-align: center;
-  font-size: 30px;
-  font-family: "Roboto Slab", serif;
-  line-height: 42px;
 }
 @media screen and (max-width: 576px) {
   .init__body {
     font-size: 25px;
   }
 }
+.init__title {
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  line-height: 42px;
+  color: #fff;
+}
 .init__subtitle {
   margin-bottom: 45px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  line-height: 42px;
+  color: #fff;
 }
 .init__buton {
+  font-family: "Roboto Slab", serif;
   color: #fff;
   text-transform: uppercase;
   border: 3px solid #fff;
