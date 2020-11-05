@@ -111,10 +111,10 @@
   border: none;
   background: #8b8b8b;
   transition: 0.25s ease-in-out;
-  background: url("/img/arrow-left.png") no-repeat center, #8b8b8b;
+  background: url("../img/arrow-left.png") no-repeat center, #8b8b8b;
 
   &:focus {
-    background: url("/img/arrow-left.png") no-repeat center, #c0301c;
+    background: url("../img/arrow-left.png") no-repeat center, #c0301c;
     outline: none;
   }
 }
@@ -125,10 +125,10 @@
   border: none;
   background: #8b8b8b;
   transition: 0.25s ease-in-out;
-  background: url("/img/arrow-right.png") no-repeat center, #8b8b8b;
+  background: url("../img/arrow-right.png") no-repeat center, #8b8b8b;
 
   &:focus {
-    background: url("/img/arrow-right.png") no-repeat center, #c0301c;
+    background: url("../img/arrow-right.png") no-repeat center, #c0301c;
     outline: none;
   }
 

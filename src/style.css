@@ -710,10 +710,10 @@ img {
   background: #8b8b8b;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  background: url("/img/arrow-left.png") no-repeat center, #8b8b8b;
+  background: url("../img/arrow-left.png") no-repeat center, #8b8b8b;
 }
 .slick-arrow.slick-prev:focus {
-  background: url("/img/arrow-left.png") no-repeat center, #c0301c;
+  background: url("../img/arrow-left.png") no-repeat center, #c0301c;
   outline: none;
 }
 
@@ -725,10 +725,10 @@ img {
   background: #8b8b8b;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  background: url("/img/arrow-right.png") no-repeat center, #8b8b8b;
+  background: url("../img/arrow-right.png") no-repeat center, #8b8b8b;
 }
 .slick-arrow.slick-next:focus {
-  background: url("/img/arrow-right.png") no-repeat center, #c0301c;
+  background: url("../img/arrow-right.png") no-repeat center, #c0301c;
   outline: none;
 }
 @media screen and (max-width: 576px) {
