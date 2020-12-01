@@ -1,18 +1,14 @@
 .header {
   background: url("../img/header-bg.png") no-repeat center/cover;
+  position: relative;
+  z-index: 1;
 
   &__navigation {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    @media screen and (max-width: 768px) {
-      &.active {
-        position: fixed;
-        z-index: 100;
-      }
-    }
+    height: 23px;
   }
 
   &__logo {
@@ -27,8 +23,10 @@
 
     &.active {
       position: fixed;
+      z-index: 100;
       top: 30px;
       left: 15px;
+      width: auto;
     }
   }
 
@@ -198,8 +196,7 @@
     z-index: 20;
 
     &.active {
-      top: 0px;
-      right: 30px;
+      position: fixed;
     }
   }
 }

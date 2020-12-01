@@ -25,28 +25,9 @@
       width: 60px;
       height: 3px;
       bottom: -28px;
-      left: 45%;
+      left: 50%;
+      transform: translate(-50%);
       background: #555;
-
-      @media screen and (max-width: 576px) {
-        left: 44%;
-      }
-
-      @media screen and (max-width: 530px) {
-        left: 43%;
-      }
-
-      @media screen and (max-width: 470px) {
-        left: 42%;
-      }
-
-      @media screen and (max-width: 440px) {
-        left: 41%;
-      }
-
-      @media screen and (max-width: 370px) {
-        left: 40%;
-      }
     }
   }
 

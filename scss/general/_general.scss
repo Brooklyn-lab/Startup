@@ -5,6 +5,7 @@
 *::after {
   padding: 0;
   margin: 0;
+  border: 0;
   box-sizing: border-box;
 }
 body {
@@ -16,10 +17,10 @@ body {
   color: #fff;
   scroll-behavior: smooth;
 }
-ul [class],
-ol [class] {
+ul,
+ol,
+li {
   list-style: none;
-  padding: 0;
 }
 a {
   text-decoration: none;
@@ -40,8 +41,8 @@ h2,
 h3,
 h4,
 p,
-// ul[class],
-// ol[class],
+ul,
+ol,
 li,
 figure,
 figcaption,
@@ -49,6 +50,8 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
 }
 img {
   max-width: 100%;

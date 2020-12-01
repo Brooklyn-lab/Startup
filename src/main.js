@@ -1,12 +1,7 @@
 jQuery(document).ready(function () {
 
   let burger = $(".header__burger");
-  let burgerButton = $(".header__button");
-  let burgerMenu = $(".menu");
-  // let bodyBlock = $("body");
   let btns = $(".works__btn");
-  let headerOverlay = $(".header__overlay");
-  let headerNav = $(".header__navigation");
 
   $("#menu").on("click","a", function (event) {
     event.preventDefault();
@@ -15,15 +10,7 @@ jQuery(document).ready(function () {
     $('body,html').animate({scrollTop: top}, 1500);
   });
 
-  // burger.on("click", function() {
-  //     burgerMenu.toggleClass("active");
-  //     burgerButton.toggleClass("active");
-  //     // bodyBlock.toggleClass("body-lock");
-  //     headerOverlay.toggleClass("active");
-  //     headerNav.toggleClass("active");
-  // })
-
-  let all = $(".header__overlay, .header__navigation, .header__button, .menu");
+  let all = $(".header__overlay, .header__logo-link, .header__button, .menu");
 
   burger.on("click", function() {
     all.toggleClass("active");
