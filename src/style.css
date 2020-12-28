@@ -96,6 +96,23 @@ img {
     #ancor a i {
       color: #fff; }
 
+.animate-hidden {
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.5s ease, -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease, opacity 0.5s ease;
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  transition: transform 0.3s ease, opacity 0.5s ease, -webkit-transform 0.3s ease;
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  will-change: transform; }
+  .animate-hidden.not-in-view {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px); }
+
 .header {
   background: url("../img/header-bg.png") no-repeat center/cover;
   position: relative;

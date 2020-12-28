@@ -1,524 +1,579 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startup</title>
     <script src="https://kit.fontawesome.com/7ba71101b8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./src/iconsfont.css">
-    <link rel="stylesheet" href="./src/style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./src/iconsfont.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
     <!-- Begin Header -->
 
     <header class="header">
-        <a id="home"></a>
-        <div class="container">
+      <a id="home"></a>
+      <div class="container">
+        <!-- Begin Header-Navigation -->
 
-            <!-- Begin Header-Navigation -->
+        <div class="header__navigation">
+          <div class="header__logo">
+            <a href="#" class="header__logo-link">
+              <img src="./img/logo.png" alt="Sturtap" class="header__img" />
+            </a>
+          </div>
+          <nav class="header__nav nav menu" id="menu">
+            <ul class="nav__items">
+              <li class="nav__item">
+                <a href="#home" class="nav__link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#services" class="nav__link">Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#works" class="nav__link">Works</a>
+              </li>
+              <li class="nav__item">
+                <a href="#blog" class="nav__link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#clients" class="nav__link">Clients</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
 
-            <div class="header__navigation">
-                <div class="header__logo">
-                    <a href="#" class="header__logo-link">
-                        <img src="./img/logo.png" alt="Sturtap" class="header__img">
-                    </a>
-                </div>
-                <nav class="header__nav nav menu" id="menu">
-                    <ul class="nav__items">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">Services</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#works" class="nav__link">Works</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#blog" class="nav__link">Blog</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#clients" class="nav__link">Clients</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+          <!-- Begin Header-Burger -->
 
-                <!-- Begin Header-Burger -->
-
-                <div class="header__burger">
-                    <div class="header__overlay"></div>
-                    <div class="header__button">
-                        <span id="span"></span>
-                    </div>
-                </div>
-                
-                <!-- End Header-Burger -->
-
+          <div class="header__burger">
+            <div class="header__overlay"></div>
+            <div class="header__button">
+              <span id="span"></span>
             </div>
+          </div>
 
-            <!-- End Header-Navigation -->
-
-            <!-- Begin Header-Title -->
-
-            <div class="header__content">
-                <h1 class="header__title">Welcome to STARTUP</h1>
-                <p class="header__subtitle">Your Favourite Creative Agency Template</p>
-                <a href="#" class="header__btn">Get Started</a>
-            </div>
-
-            <!-- End Header-Title -->
-
+          <!-- End Header-Burger -->
         </div>
+
+        <!-- End Header-Navigation -->
+
+        <!-- Begin Header-Title -->
+
+        <div class="header__content">
+          <h1 class="header__title">Welcome to STARTUP</h1>
+          <p class="header__subtitle">Your Favourite Creative Agency Template</p>
+          <a href="#" class="header__btn">Get Started</a>
+        </div>
+
+        <!-- End Header-Title -->
+      </div>
     </header>
 
     <!-- End Header -->
 
     <!-- Begin Section-1 -->
 
-    <section class="services">
-        <a id="services"></a>
-        <div class="container">
+    <section class="services animate-hidden">
+      <a id="services"></a>
+      <div class="container">
+        <!-- Begin Title -->
 
-            <!-- Begin Title -->
-
-            <div class="services__title title">
-                <h2 class="title__title">Services</h2>
-                <p class="title__text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-            </div>
-
-            <!-- End Title -->
-
-            <div class="services__body">
-                <div class="services__item">
-                    <div class="services__icon">
-                        <img src="./img/section1-icon1.png" alt="Clean Typography">
-                    </div>
-                    <p class="services__item-title">Clean Typography</p>
-                    <p class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
-                </div>
-                <div class="services__item">
-                    <div class="services__icon">
-                        <img src="./img/section1-icon2.png" alt="Rock Solid Code">
-                    </div>
-                    <p class="services__item-title">Rock Solid Code</p>
-                    <p class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="services__item">
-                    <div class="services__icon">
-                        <img src="./img/section1-icon3.png" alt="Expert Support">
-                    </div>
-                    <p class="services__item-title">Expert Support</p>
-                    <p class="services__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum dolor sit amet.</p>
-                </div>
-            </div>
-
+        <div class="services__title title">
+          <h2 class="title__title">Services</h2>
+          <p class="title__text">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         </div>
+
+        <!-- End Title -->
+
+        <div class="services__body">
+          <div class="services__item">
+            <div class="services__icon">
+              <img src="./img/section1-icon1.png" alt="Clean Typography" />
+            </div>
+            <p class="services__item-title">Clean Typography</p>
+            <p class="services__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+              architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.
+            </p>
+          </div>
+          <div class="services__item">
+            <div class="services__icon">
+              <img src="./img/section1-icon2.png" alt="Rock Solid Code" />
+            </div>
+            <p class="services__item-title">Rock Solid Code</p>
+            <p class="services__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+              architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="services__item">
+            <div class="services__icon">
+              <img src="./img/section1-icon3.png" alt="Expert Support" />
+            </div>
+            <p class="services__item-title">Expert Support</p>
+            <p class="services__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
+              architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- End Section-1 -->
 
     <!-- Begin Section-2 -->
 
-     <section class="about">
-        <a id="about"></a>
-        <div class="container">
+    <section class="about animate-hidden">
+      <a id="about"></a>
+      <div class="container">
+        <!-- Begin Title -->
 
-            <!-- Begin Title -->
-
-            <div class="about__title title">
-                <h2 class="title__title">About us</h2>
-                <p class="title__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-            </div>
-
-            <!-- End Title -->
-
-            <div class="about__paragraphs">
-                <div class="about__paragraph">
-                    <p class="about__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
-                </div>
-                <div class="about__paragraph">
-                    <p class="about__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Loreipsum dolor sit amet. Lorem ipsum dolor et.</p>
-                </div>
-            </div>
-
-            <div class="about__employees">
-                <div class="about__slider slider">
-                    <div class="slider__body">
-                        <div class="slider__img">
-                            <img src="./img/section2-pfoto1.png" alt="Head of Ideas">
-                            <div class="slider__overlay">
-                                <div class="slider__social">
-                                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="slider__title">Md. Khalil Uddin</p>
-                        <p class="slider__subtitle">Head of Ideas</p>
-                    </div>
-                    <div class="slider__body">
-                        <div class="slider__img">
-                            <img src="./img/section2-pfoto2.png" alt="Lead WordPress Developer">
-                            <div class="slider__overlay">
-                                <div class="slider__social">
-                                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="slider__title">Rubel Miah</p>
-                        <p class="slider__subtitle">Lead WordPress Developer</p>
-                    </div>
-                    <div class="slider__body">
-                        <div class="slider__img">
-                            <img src="./img/section2-pfoto3.png" alt="Sr. Web Developer">
-                            <div class="slider__overlay">
-                                <div class="slider__social">
-                                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="slider__title">Shamim Mia</p>
-                        <p class="slider__subtitle">Sr. Web Developer</p>
-                    </div>
-                    <div class="slider__body">
-                        <div class="slider__img">
-                            <img src="./img/section2-pfoto4.png" alt="Front-end Developer">
-                            <div class="slider__overlay">
-                                <div class="slider__social">
-                                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="slider__title">John Doe</p>
-                        <p class="slider__subtitle">Front-end Developer</p>
-                    </div>
-                    <div class="slider__body">
-                        <div class="slider__img">
-                            <img src="./img/section2-pfoto1.png" alt="Head of Ideas">
-                            <div class="slider__overlay">
-                                <div class="slider__social">
-                                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
-                                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="slider__title">Md. Khalil Uddin</p>
-                        <p class="slider__subtitle">Head of Ideas</p>
-                    </div>
-                  </div>
-            </div>
+        <div class="about__title title">
+          <h2 class="title__title">About us</h2>
+          <p class="title__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         </div>
+
+        <!-- End Title -->
+
+        <div class="about__paragraphs">
+          <div class="about__paragraph">
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor
+              invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam
+              et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum
+              dolor sit amet. Lorem ipsum eat.
+            </p>
+          </div>
+          <div class="about__paragraph">
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirtempor
+              invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos eaccusam et
+              justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Loreipsum dolor
+              sit amet. Lorem ipsum dolor et.
+            </p>
+          </div>
+        </div>
+
+        <div class="about__employees">
+          <div class="about__slider slider">
+            <div class="slider__body">
+              <div class="slider__img">
+                <img src="./img/section2-pfoto1.png" alt="Head of Ideas" />
+                <div class="slider__overlay">
+                  <div class="slider__social">
+                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+              <p class="slider__title">Md. Khalil Uddin</p>
+              <p class="slider__subtitle">Head of Ideas</p>
+            </div>
+            <div class="slider__body">
+              <div class="slider__img">
+                <img src="./img/section2-pfoto2.png" alt="Lead WordPress Developer" />
+                <div class="slider__overlay">
+                  <div class="slider__social">
+                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+              <p class="slider__title">Rubel Miah</p>
+              <p class="slider__subtitle">Lead WordPress Developer</p>
+            </div>
+            <div class="slider__body">
+              <div class="slider__img">
+                <img src="./img/section2-pfoto3.png" alt="Sr. Web Developer" />
+                <div class="slider__overlay">
+                  <div class="slider__social">
+                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+              <p class="slider__title">Shamim Mia</p>
+              <p class="slider__subtitle">Sr. Web Developer</p>
+            </div>
+            <div class="slider__body">
+              <div class="slider__img">
+                <img src="./img/section2-pfoto4.png" alt="Front-end Developer" />
+                <div class="slider__overlay">
+                  <div class="slider__social">
+                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+              <p class="slider__title">John Doe</p>
+              <p class="slider__subtitle">Front-end Developer</p>
+            </div>
+            <div class="slider__body">
+              <div class="slider__img">
+                <img src="./img/section2-pfoto1.png" alt="Head of Ideas" />
+                <div class="slider__overlay">
+                  <div class="slider__social">
+                    <a href="#" class="slider__link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="slider__link"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                </div>
+              </div>
+              <p class="slider__title">Md. Khalil Uddin</p>
+              <p class="slider__subtitle">Head of Ideas</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- End Section-2 -->
 
     <!-- Begin Section-3 -->
 
-    <section class="works">
-        <a id="works"></a>
-        <div class="container">
+    <section class="works animate-hidden">
+      <a id="works"></a>
+      <div class="container">
+        <!-- Begin Title -->
 
-            <!-- Begin Title -->
-
-            <div class="works__title title">
-                <h2 class="title__title">Latest Works</h2>
-            </div>
-
-            <!-- End Title -->
-
-            <div class="works__filter">
-                <div class="works__btns">
-                    <div class="works__btn active">All</div>
-                    <div class="works__btn">Branding</div>
-                    <div class="works__btn">Desing</div>
-                    <div class="works__btn">Development</div>
-                    <div class="works__btn">Strategy</div>
-                </div>
-                <div class="works__cards">
-                    <div class="works__card active" data-category="desing">
-                        <img src="./img/section3-images1.png" alt="Desing">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="branding">
-                        <img src="./img/section3-images2.png" alt="Branding">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="development">
-                        <img src="./img/section3-images3.png" alt="Development">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="desing">
-                        <img src="./img/section3-images4.png" alt="Desing">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="branding">
-                        <img src="./img/section3-images5.png" alt="Branding">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="development">
-                        <img src="./img/section3-images6.png" alt="Development">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="strategy">
-                        <img src="./img/section3-images7.png" alt="Strategy">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="strategy">
-                        <img src="./img/section3-images8.png" alt="Strategy">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="works__card active" data-category="branding">
-                        <img src="./img/section3-images9.png" alt="Branding">
-                        <div class="works__overlay">
-                            <p class="works__titile">Hair Dresser</p>
-                            <p class="works__text">Branding</p>
-                            <a href="#" class="works__link">View 
-                                <i class="fas fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+        <div class="works__title title">
+          <h2 class="title__title">Latest Works</h2>
         </div>
+
+        <!-- End Title -->
+
+        <div class="works__filter">
+          <div class="works__btns">
+            <div class="works__btn active">All</div>
+            <div class="works__btn">Branding</div>
+            <div class="works__btn">Desing</div>
+            <div class="works__btn">Development</div>
+            <div class="works__btn">Strategy</div>
+          </div>
+          <div class="works__cards">
+            <div class="works__card active" data-category="desing">
+              <img src="./img/section3-images1.png" alt="Desing" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="branding">
+              <img src="./img/section3-images2.png" alt="Branding" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="development">
+              <img src="./img/section3-images3.png" alt="Development" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="desing">
+              <img src="./img/section3-images4.png" alt="Desing" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="branding">
+              <img src="./img/section3-images5.png" alt="Branding" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="development">
+              <img src="./img/section3-images6.png" alt="Development" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="strategy">
+              <img src="./img/section3-images7.png" alt="Strategy" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="strategy">
+              <img src="./img/section3-images8.png" alt="Strategy" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="works__card active" data-category="branding">
+              <img src="./img/section3-images9.png" alt="Branding" />
+              <div class="works__overlay">
+                <p class="works__titile">Hair Dresser</p>
+                <p class="works__text">Branding</p>
+                <a href="#" class="works__link"
+                  >View
+                  <i class="fas fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- End Section-3 -->
 
     <!-- Begin Section-4 -->
 
-    <section class="init">
-        <div class="container">
-            <div class="init__body">
-                <p class="init__title">Do you like OUR WORK so far?</p>
-                <p class="init__subtitle">Let's talk about YOUR PROJECT!</p>
-                <a href="#" class="init__buton">Get in Touch</a>
-            </div>
+    <section class="init animate-hidden">
+      <div class="container">
+        <div class="init__body">
+          <p class="init__title">Do you like OUR WORK so far?</p>
+          <p class="init__subtitle">Let's talk about YOUR PROJECT!</p>
+          <a href="#" class="init__buton">Get in Touch</a>
         </div>
+      </div>
     </section>
 
     <!-- End Section-4 -->
 
     <!-- Begin Section-5 -->
 
-    <section class="blog">
-        <a id="blog"></a>
-        <div class="container">
+    <section class="blog animate-hidden">
+      <a id="blog"></a>
+      <div class="container">
+        <!-- Begin Title -->
 
-            <!-- Begin Title -->
-
-            <div class="blog__title title">
-                <h2 class="title__title">Recent blog posts</h2>
-                <p class="title__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-            </div>
-
-            <!-- End Title -->
-
-            <div class="blog__body">
-                <div class="blog__item">
-                    <div class="blog__img">
-                        <img src="./img/section6-image1.png" alt="blog">
-                    </div>
-                    <div class="blog__content">
-                        <div class="blog__header">
-                            <div class="blog__wrapper">
-                                <p class="blog__date"><span class="blog__number">18</span>oct</p>
-                            </div>
-                            <div class="blog__title">
-                                <p class="blog__about blog__about_red">Startup ideas needs to be funded</p>
-                                <p class="blog__name">By <span>Khalil</span> Uddin in <span>Development</span></p>
-                            </div>
-                        </div>
-                        <p class="blog__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam erat, sed diam </p>
-                        <a class="blog__more" href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="blog__item">
-                    <div class="blog__img">
-                        <img src="./img/section6-image2.png" alt="blog">
-                    </div>
-                    <div class="blog__content">
-                        <div class="blog__header">
-                            <div class="blog__wrapper">
-                                <p class="blog__date"><span class="blog__number">18</span>oct</p>
-                            </div>
-                            <div class="blog__title">
-                                <p class="blog__about">User Interface Designing Elements</p>
-                                <p class="blog__name">By Khalil Uddin in Development</p>
-                            </div>
-                        </div>
-                        <p class="blog__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam</p>
-                        <a class="blog__more" href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-
+        <div class="blog__title title">
+          <h2 class="title__title">Recent blog posts</h2>
+          <p class="title__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         </div>
+
+        <!-- End Title -->
+
+        <div class="blog__body">
+          <div class="blog__item">
+            <div class="blog__img">
+              <img src="./img/section6-image1.png" alt="blog" />
+            </div>
+            <div class="blog__content">
+              <div class="blog__header">
+                <div class="blog__wrapper">
+                  <p class="blog__date"><span class="blog__number">18</span>oct</p>
+                </div>
+                <div class="blog__title">
+                  <p class="blog__about blog__about_red">Startup ideas needs to be funded</p>
+                  <p class="blog__name">By <span>Khalil</span> Uddin in <span>Development</span></p>
+                </div>
+              </div>
+              <p class="blog__text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata
+                sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur
+                sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam
+                erat, sed diam
+              </p>
+              <a class="blog__more" href="#">Read More</a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <div class="blog__img">
+              <img src="./img/section6-image2.png" alt="blog" />
+            </div>
+            <div class="blog__content">
+              <div class="blog__header">
+                <div class="blog__wrapper">
+                  <p class="blog__date"><span class="blog__number">18</span>oct</p>
+                </div>
+                <div class="blog__title">
+                  <p class="blog__about">User Interface Designing Elements</p>
+                  <p class="blog__name">By Khalil Uddin in Development</p>
+                </div>
+              </div>
+              <p class="blog__text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata
+                sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur
+                sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam
+              </p>
+              <a class="blog__more" href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- End Section-5 -->
 
     <!-- Begin Section-6 -->
 
-    <section class="partners">
-        <a id="clients"></a>
-        <div class="container">
-            <div class="partners__img">
-                <img src="./img/section6-partners1.png" alt="partners">
-                <img src="./img/section6-partners2.png" alt="partners">
-                <img src="./img/section6-partners3.png" alt="partners">
-                <img src="./img/section6-partners4.png" alt="partners">
-                <img src="./img/section6-partners5.png" alt="partners">
-            </div>
-
-            <div class="partners__slider">
-                <div class="partners__item">
-                    <p class="partners__text partners__text_top">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”</p>
-                    <p class="partners__text partners__text_bottom">John Doe, Google Inc.</p>
-                </div>
-                <div class="partners__item">
-                    <p class="partners__text partners__text_top">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi molestias quas doloremque debitis tenetur alias voluptas quam, itaque quo fuga?”</p>
-                    <p class="partners__text partners__text_bottom">John Doe, Google Inc.</p>
-                </div>
-                <div class="partners__item">
-                    <p class="partners__text partners__text_top">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, excepturi.”</p>
-                    <p class="partners__text partners__text_bottom">John Doe, Google Inc.</p>
-                </div>
-            </div>
+    <section class="partners animate-hidden">
+      <a id="clients"></a>
+      <div class="container">
+        <div class="partners__img">
+          <img src="./img/section6-partners1.png" alt="partners" />
+          <img src="./img/section6-partners2.png" alt="partners" />
+          <img src="./img/section6-partners3.png" alt="partners" />
+          <img src="./img/section6-partners4.png" alt="partners" />
+          <img src="./img/section6-partners5.png" alt="partners" />
         </div>
+
+        <div class="partners__slider">
+          <div class="partners__item">
+            <p class="partners__text partners__text_top">
+              Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+              Temporibus autem quibusdam et aut officiis debitis aut rerum”
+            </p>
+            <p class="partners__text partners__text_bottom">John Doe, Google Inc.</p>
+          </div>
+          <div class="partners__item">
+            <p class="partners__text partners__text_top">
+              Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+              Temporibus autem quibusdam et aut officiis debitis aut rerum Lorem ipsum dolor sit,
+              amet consectetur adipisicing elit. Modi molestias quas doloremque debitis tenetur
+              alias voluptas quam, itaque quo fuga?”
+            </p>
+            <p class="partners__text partners__text_bottom">John Doe, Google Inc.</p>
+          </div>
+          <div class="partners__item">
+            <p class="partners__text partners__text_top">
+              Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+              Temporibus autem quibusdam et aut officiis debitis aut rerum. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Aliquid, excepturi.”
+            </p>
+            <p class="partners__text partners__text_bottom">John Doe, Google Inc.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- End Section-6 -->
 
     <!-- Begin Section-7 -->
-    <section class="contact">
-        <a id="contact"></a>
-        <div class="container">
+    <section class="contact animate-hidden">
+      <a id="contact"></a>
+      <div class="container">
+        <!-- Begin Title -->
 
-            <!-- Begin Title -->
-
-            <div class="contact__title title">
-                <h2 class="title__title">Get in touch</h2>
-                <p class="title__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
-            </div>
-
-            <!-- End Title -->
-
-            <div class="contact__body">
-                <div class="contact__data data">
-                    <div class="data__icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="data__item">
-                            <p class="data__title">Address</p>
-                            <p class="data__subtitle">312, 7th Ave, New York</p>
-                            <p class="data__subtitle">NY 101200, United States of America</p>
-                        </div>
-                    </div>
-                    <div class="data__icon">
-                        <i class="fas fa-mobile-alt"></i>
-                        <div class="data__item">
-                            <p class="data__title">Hotline (24x7)</p>
-                            <div>
-                                <a class="data__subtitle" href="tel:+650052300">+65 0052 300</a>, 
-                                <a class="data__subtitle" href="tel:+6588251210">+65 88251 210</a>
-                            </div>
-                            <a class="data__subtitle" href="tel:+8801723511340">+88 01723 511 340</a>
-                        </div>
-                    </div>
-                    <div class="data__icon">
-                        <i class="far fa-envelope"></i>
-                        <div class="data__item data__item_mail">
-                            <p class="data__title">E-mail</p>
-                            <a class="data__subtitle" href="mailto:shapedtheme@gmail.com">shapedtheme@gmail.com</a>
-                            <a class="data__subtitle" href="mailto:khalilkode@gmail.com">khalilkode@gmail.com</a>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact__form form">
-                    <div class="form__inputs">
-                        <input class="form__input" type="text" name="name" placeholder="your name">
-                        <input class="form__input" type="email" name="email" placeholder="your e-mail">
-                    </div>
-                    <div class="form__inputs">
-                        <input class="form__input" type="text" placeholder="your subject ">
-                        <input class="form__input" type="text" placeholder="company name">
-                    </div>
-                    <textarea class="form__textarea" name="text" placeholder="Write your message" ></textarea>
-                    <div class="form__button-wrapper">
-                        <button class="form__button" type="submit">Send message</button>
-                        <p class="form__warning"><span class="form__star">*</span>We’ll contact you as as possible. We don’t reply on Monday.</p>
-                    </div>
-                </form>
-            </div>
+        <div class="contact__title title">
+          <h2 class="title__title">Get in touch</h2>
+          <p class="title__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
         </div>
+
+        <!-- End Title -->
+
+        <div class="contact__body">
+          <div class="contact__data data">
+            <div class="data__icon">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="data__item">
+                <p class="data__title">Address</p>
+                <p class="data__subtitle">312, 7th Ave, New York</p>
+                <p class="data__subtitle">NY 101200, United States of America</p>
+              </div>
+            </div>
+            <div class="data__icon">
+              <i class="fas fa-mobile-alt"></i>
+              <div class="data__item">
+                <p class="data__title">Hotline (24x7)</p>
+                <div>
+                  <a class="data__subtitle" href="tel:+650052300">+65 0052 300</a>,
+                  <a class="data__subtitle" href="tel:+6588251210">+65 88251 210</a>
+                </div>
+                <a class="data__subtitle" href="tel:+8801723511340">+88 01723 511 340</a>
+              </div>
+            </div>
+            <div class="data__icon">
+              <i class="far fa-envelope"></i>
+              <div class="data__item data__item_mail">
+                <p class="data__title">E-mail</p>
+                <a class="data__subtitle" href="mailto:shapedtheme@gmail.com"
+                  >shapedtheme@gmail.com</a
+                >
+                <a class="data__subtitle" href="mailto:khalilkode@gmail.com"
+                  >khalilkode@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <form class="contact__form form">
+            <div class="form__inputs">
+              <input class="form__input" type="text" name="name" placeholder="your name" />
+              <input class="form__input" type="email" name="email" placeholder="your e-mail" />
+            </div>
+            <div class="form__inputs">
+              <input class="form__input" type="text" placeholder="your subject " />
+              <input class="form__input" type="text" placeholder="company name" />
+            </div>
+            <textarea
+              class="form__textarea"
+              name="text"
+              placeholder="Write your message"
+            ></textarea>
+            <div class="form__button-wrapper">
+              <button class="form__button" type="submit">Send message</button>
+              <p class="form__warning">
+                <span class="form__star">*</span>We’ll contact you as as possible. We don’t reply on
+                Monday.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
 
     <!-- End Section-7 -->
@@ -526,34 +581,43 @@
     <!-- Begin Anchor -->
 
     <div id="ancor">
-        <a href="#home"><i class="fas fa-chevron-up"></i></a>
+      <a href="#home"><i class="fas fa-chevron-up"></i></a>
     </div>
 
     <!-- End Anchor -->
 
     <!-- Begin Footer -->
 
-    <footer class="footer">
-        <div class="container">
-
-            <div class="footer__title title">
-                <ul class="title__title footer__items">
-                    <li class="title__item"><a href="#" class="title__link"><i class="fab fa-facebook-f"></i></a></li>
-                    <li class="title__item"><a href="#" class="title__link"><i class="fab fa-twitter"></i></a></li>
-                    <li class="title__item"><a href="#" class="title__link"><i class="fab fa-google-plus-g"></i></a></li>
-                    <li class="title__item"><a href="#" class="title__link"><i class="fab fa-linkedin-in"></i></a></li>
-                </ul>
-                <p class="title__text footer__text">© <span id="date">2015</span> Startup, Designed by ShapedTheme</p>
-                <p class="title__text footer__text">AUTHOR ILYA STEPANIUK</p>
-            </div>
-
+    <footer class="footer animate-hidden">
+      <div class="container">
+        <div class="footer__title title">
+          <ul class="title__title footer__items">
+            <li class="title__item">
+              <a href="#" class="title__link"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="title__item">
+              <a href="#" class="title__link"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="title__item">
+              <a href="#" class="title__link"><i class="fab fa-google-plus-g"></i></a>
+            </li>
+            <li class="title__item">
+              <a href="#" class="title__link"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+          <p class="title__text footer__text">
+            © <span id="date">2015</span> Startup, Designed by ShapedTheme
+          </p>
+          <p class="title__text footer__text">AUTHOR ILYA STEPANIUK</p>
         </div>
+      </div>
     </footer>
 
     <!-- End Footer -->
 
     <script src="./jquery-3.5.0.js"></script>
+    <script src="./libs/jquery.waypoints.min.js"></script>
     <script src="./slick.min.js"></script>
     <script src="./src/main.js"></script>
-</body>
+  </body>
 </html>
