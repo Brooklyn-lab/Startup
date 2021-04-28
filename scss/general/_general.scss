@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #333;
   scroll-behavior: smooth;
 }
 ul,
@@ -102,17 +102,5 @@ img {
     i {
       color: #fff;
     }
-  }
-}
-
-.animate-hidden {
-  transition: transform 0.3s ease, opacity 0.5s ease;
-  opacity: 1;
-  transition-delay: 0.2s;
-  will-change: transform;
-
-  &.not-in-view {
-    opacity: 0;
-    transform: translateY(50px);
   }
 }
